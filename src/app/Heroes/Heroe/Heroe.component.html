@@ -1,0 +1,20 @@
+<h1>Heroe Component Works!!!</h1>
+<h1>{{nombre}}</h1>
+
+<dl>
+    <td>Nombre:</td>
+    <dd>{{nombre}}</dd>
+    
+    <td>Edad:</td>
+    <dd>{{edad}}</dd>
+    
+    <td>Funcion:</td>
+    <dd>{{GetNombre()}}</dd>
+
+    <td>Capitalizado:</td>
+    <dd>{{nombre.toUpperCase()}}</dd>
+    <dd>{{NombreCapitalizado}}</dd>
+</dl>
+
+<button (click)="UpdateNombre()">Cambia Heroe</button>
+<button (click)="UpdateEdad()">Cambia Edad</button>
